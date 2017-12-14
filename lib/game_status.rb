@@ -48,4 +48,5 @@ end
 def winner(board)
   if winning_index = won?(board)
     board[winning_index.first]
+  end
 end
