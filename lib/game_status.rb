@@ -48,4 +48,5 @@ end
 def winner(board)
   if board[won?(board).first]
   else nil
+  end
 end
